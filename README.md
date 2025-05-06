@@ -68,57 +68,7 @@ Options:
 <img src="docs/assets/026893_1_ddim50_PS7.5_macro_photo_of_a_flower_[generated].jpg" height="256">
 </p>
 
-### Whats New
-[See full Changelog here](./docs/changelog.md)
 
-
-**14.3.0**
-- feature: integrates [spandrel](https://github.com/chaiNNer-org/spandrel) for upscaling 
-- fix: allow loading sdxl models from local paths. 
-
-**14.2.0**
-- 🎉 feature: add image prompt support via `--image-prompt` and `--image-prompt-strength`
-
-**14.1.1**
-- tests: add installation tests for windows, mac, and conda
-- fix: dependency issues
-
-**14.1.0**
-- 🎉 feature: make video generation smooth by adding frame interpolation
-- feature: SDXL weights in the compvis format can now be used
-- feature: allow video generation at any size specified by user
-- feature: video generations output in "bounce" format
-- feature: choose video output format: mp4, webp, or gif
-- feature: fix random seed handling in video generation
-- docs: auto-publish docs on push to master
-- build: remove imageio dependency
-- build: vendorize facexlib so we don't install its unneeded dependencies
-
-
-**14.0.4**
-- docs: add a documentation website at https://brycedrennan.github.io/imaginAIry/
-- build: remove fairscale dependency
-- fix: video generation was broken
-
-**14.0.3**
-- fix: several critical bugs with package
-- tests: add a wheel smoketest to detect these issues in the future
-
-**14.0.0**
-- 🎉 video generation using [Stable Video Diffusion](https://github.com/Stability-AI/generative-models)
-  - add `--videogen` to any image generation to create a short video from the generated image
-  - or use `aimg videogen` to generate a video from an image
-- 🎉 SDXL (Stable Diffusion Extra Large) models are now supported.
-  - try `--model opendalle` or `--model sdxl`
-  - inpainting and controlnets are not yet supported for SDXL
-- 🎉 imaginairy is now backed by the [refiners library](https://github.com/finegrain-ai/refiners)
-  - This was a huge rewrite which is why some features are not yet supported.  On the plus side, refiners supports
-cutting edge features (SDXL, image prompts, etc) which will be added to imaginairy soon.
-  - [self-attention guidance](https://github.com/SusungHong/Self-Attention-Guidance) which makes details of images more accurate
-- 🎉 feature: larger image generations now work MUCH better and stay faithful to the same image as it looks at a smaller size. 
-For example `--size 720p --seed 1` and `--size 1080p --seed 1` will produce the same image for SD15
-- 🎉 feature: loading diffusers based models now supported. Example `--model https://huggingface.co/ainz/diseny-pixar --model-architecture sd15`
-- 🎉 feature: qrcode controlnet!
 
 
 ### Run API server and StableStudio web interface (alpha)
