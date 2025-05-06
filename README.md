@@ -1,10 +1,6 @@
 # ImaginAIry 🤖🧠
 
-[![Downloads](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rOvQNs0Cmn_yU1bKWjCOHzGVDgZkaTtO?usp=sharing)
-[![Downloads](https://pepy.tech/badge/imaginairy)](https://pepy.tech/project/imaginairy)
-[![image](https://img.shields.io/pypi/v/imaginairy.svg)](https://pypi.org/project/imaginairy/)
-[![image](https://img.shields.io/badge/license-MIT-green)](https://github.com/brycedrennan/imaginAIry/blob/master/LICENSE/)
-[![Discord](https://flat.badgen.net/discord/members/FdD7ut3YjW)](https://discord.gg/FdD7ut3YjW)
+
 
 AI imagined images. Pythonic generation of stable diffusion images **and videos** *!.
 
